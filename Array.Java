@@ -7,9 +7,9 @@ class Array {
 
         String[] name = {"菅原","村山","寺島"};
 
-        System. out.println(name[0] + "さん" + score[0] + "点");
-        System. out.println(name[2] + "さん" + score[1] + "点");
-        System. out.println(name[2] + "さん" + score[2] + "点");
+        System. out.println(name[0] + "さん：" + score[0] + "点");
+        System. out.println(name[2] + "さん：" + score[1] + "点");
+        System. out.println(name[2] + "さん：" + score[2] + "点");
         System. out.println("受験者数" + score.length + "名");
     }
 }
