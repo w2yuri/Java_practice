@@ -19,6 +19,6 @@ class MultiArray {
         System. out.println(allScore[1][2] + "点");
 
         System. out.println("allScore.length : " + allScore. length);
-        String. out.println("allScore[0].length : " + allScore[0].length);
+        System. out.println("allScore[0].length : " + allScore[0].length);
     }
 }
