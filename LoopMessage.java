@@ -8,3 +8,5 @@ class LoopMessage {
         }
     }
 }
+
+//無限ループしたらctrl+cで強制終了
