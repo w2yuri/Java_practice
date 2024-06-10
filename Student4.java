@@ -1,6 +1,6 @@
 class Student4 {
     String name;
-    int counter = 0;
+    static int counter = 0;
 
     //コンストラクタ
     Student4(String n){
@@ -10,7 +10,7 @@ class Student4 {
         System.out.println(name + "さんをインスタンス化しました");
     }
     //カウンターの変数を画面に表示するメソッド
-    void display(){
+    static void display(){
         System.out.println(counter + "人です");
     }
 }
