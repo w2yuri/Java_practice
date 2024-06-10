@@ -12,8 +12,8 @@ class DriveCar {
         //c１のナンバー、速度を表示
         c1.display();
 
-        //c１の速度を０に設定
-        c1.stop();
+        //c１の速度を1０に設定
+        c1.brake(10);
 
         //c１のナンバー、速度を表示
         c1.display();

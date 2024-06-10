@@ -12,11 +12,17 @@ class Car {
         speed = s;
     }
 
-    void stop(){
+    void brake(){
         speed = 0;
+    }
+
+    void brake(int s){
+        speed = speed - s;
     }
 
     void display(){
         System.out.println("ナンバー" + no + "の速度は" + speed + "です");
     }
 }
+
+//オーバーロード（同じメソッド名で引数が違うものを同じクラスの中に複数定義）
