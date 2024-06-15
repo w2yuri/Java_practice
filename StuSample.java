@@ -1,6 +1,6 @@
 class StuSample {
     public static void main(String[] args) {
-        Student stu1 = new Student();  //Studentクラスのオブジェクトをstu1という変数で生成。
+        Student_first stu1 = new Student_first();  //Studentクラスのオブジェクトをstu1という変数で生成。
 
         stu1.name = "菅原";
         stu1.setScore(90, 80);

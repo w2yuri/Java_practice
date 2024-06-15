@@ -1,4 +1,4 @@
-class Student{
+class Student_first{
     //メンバ変数(属性。変数の定義)クラス定義の直下に記述！
     String name;
     int engScore;
