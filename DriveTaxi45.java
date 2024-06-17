@@ -9,3 +9,6 @@ public class DriveTaxi45 {
         t1.display();
     }
 }
+
+
+//実行すると「料金は500円です」と表示される
