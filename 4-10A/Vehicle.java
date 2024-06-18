@@ -1,5 +1,3 @@
-package 4-10A;
-
 public abstract class Vehicle {
     //メンバ変数定義
     protected int crewNum;
